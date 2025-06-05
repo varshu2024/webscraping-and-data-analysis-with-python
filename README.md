@@ -5,10 +5,15 @@ A Python tool that scrapes news websites and performs sentiment analysis to trac
 
 ## 🔄 Workflow:
 Send HTTP request to the webpage.
+
 Parse HTML using BeautifulSoup.
+
 Extract relevant data (e.g., article titles, prices, reviews).
+
 Store data in a pandas DataFrame.
+
 Clean and preprocess data.
+
 Analyze or visualize trends.
 
 ## Key Features
@@ -20,9 +25,13 @@ Analyze or visualize trends.
 
 - ## 🛠️ Tools & Libraries:
 **requests** – For sending HTTP requests
+
 **BeautifulSoup** – For parsing HTML and XML
+
 **pandas** – For data manipulation and analysis
+
 **matplotlib/seaborn** – For visualization
+
 **re** – For regular expressions if needed
 
 ## Quick Start
